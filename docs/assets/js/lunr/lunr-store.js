@@ -6,7 +6,7 @@ var store = [{
         "teaser": null
       },{
         "title": "A journey into state",
-        "excerpt":"State is dangerous!  ","categories": ["state"],
+        "excerpt":"State is an interesting topic, since it is one of those tools that seem intuitive on the surface, but rapidly become a very costly abstraction. In pure functional programming, state in the traditional sense, is not available. Fortunately, purity is does not necessarily lock us out of interacting with the...","categories": ["state"],
         "tags": [],
         "url": "/state/2021/09/26/a-journey-into-state.html",
         "teaser": null

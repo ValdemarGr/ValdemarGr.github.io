@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>A journey into state - A blog</title>
-<meta name="description" content="State is dangerous!">
+<meta name="description" content="State is an interesting topic, since it is one of those tools that seem intuitive on the surface, but rapidly become a very costly abstraction.">
 
 
 
@@ -21,7 +21,7 @@
 <meta property="og:url" content="/state/2021/09/26/a-journey-into-state.html">
 
 
-  <meta property="og:description" content="State is dangerous!">
+  <meta property="og:description" content="State is an interesting topic, since it is one of those tools that seem intuitive on the surface, but rapidly become a very costly abstraction.">
 
 
 
@@ -135,7 +135,7 @@
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="A journey into state">
-    <meta itemprop="description" content="State is dangerous!">
+    <meta itemprop="description" content="State is an interesting topic, since it is one of those tools that seem intuitive on the surface, but rapidly become a very costly abstraction.">
     <meta itemprop="datePublished" content="2021-09-26T03:29:00+02:00">
     
 
@@ -152,7 +152,26 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>State is dangerous!</p>
+        <p>State is an interesting topic, since it is one of those tools that seem intuitive on the surface, but rapidly become a very costly abstraction.</p>
+
+<p>In pure functional programming, state in the traditional sense, is not available.
+Fortunately, purity is does not necessarily lock us out of interacting with the real world!</p>
+
+<p>Most useful programs should declare their intent, but inevitably have ulterior motives, say using a temporary file as an intermediate step of a lager set of computations.
+Modelling arbitrary side-effects purely, requires one to ‘move’ the evaluation of an effect to some abstraction layer outside of the program, say a familiar type like <code class="language-plaintext highlighter-rouge">IO</code>.
+Interestingly enough, mutable state and other impure constructs can also be encoded into a pure programming language.</p>
+
+<ol>
+  <li>
+    <p>The first topic will be the exploration and implementation of a pure encoding of an impure effect.</p>
+  </li>
+  <li>
+    <p>The second topic will leverage ideas from 1. to build the necessary primitives to solve further problems, such as state and synchronization.</p>
+  </li>
+  <li>
+    <p>The final topic will bring previously explored ideas together in a model that is of a <em>functional reactive programming</em> nature to solve real problems.</p>
+  </li>
+</ol>
 
         
       </section>
