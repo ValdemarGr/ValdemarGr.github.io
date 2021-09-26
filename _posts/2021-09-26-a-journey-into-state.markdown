@@ -1,8 +1,8 @@
 ---
 layout: single
-title:  "A journey into state"
+title:  "A journey into effects"
 date:   2021-09-26 03:29:00 +0200
-categories: state
+categories: effects
 ---
 State is an interesting topic, since it is one of those tools that seem intuitive on the surface, but rapidly become a very costly abstraction.
 
