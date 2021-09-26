@@ -30,8 +30,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-minimal_mistakes_skin: "dark"
-theme: minimal-mistakes-jekyll
+theme: minima
 plugins:
   - jekyll-feed
 
