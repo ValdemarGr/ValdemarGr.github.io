@@ -4,4 +4,10 @@ var store = [{
         "tags": [],
         "url": "/jekyll/update/2021/09/26/welcome-to-jekyll.html",
         "teaser": null
+      },{
+        "title": "A journey into state",
+        "excerpt":"State is dangerous!  ","categories": ["state"],
+        "tags": [],
+        "url": "/state/2021/09/26/a-journey-into-state.html",
+        "teaser": null
       }]
